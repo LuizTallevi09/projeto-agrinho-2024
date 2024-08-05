@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGRINHO 2024</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #000000;
+      background-image: url(Img/fundo-trator-rural.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Mantém a imagem estática */
+      background-size: cover; /* Cobre todo o fundo */
+    }
+
+    .cabecalho {
+      background-color: #0e830e;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .cabecalho img {
+      width: 100px; /* Ajuste o tamanho conforme necessário */
+      height: auto;
+    }
+
+    .produtos-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+      justify-items: center;
+    }
+
+    .produto {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease-in-out;
+      overflow: hidden;
+      width: 300px;
+    }
+
+    .produto:hover {
+      transform: scale(1.05) translateZ(20px);
+    }
+
+    .produto img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .caixa-produto {
+      margin-top: 20px;
+    }
+
+    .produto h4 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .produto p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .botao-saiba-mais {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #0e830e;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .botao-saiba-mais:hover {
+      background-color: #333;
+    }
+
+    .Semeando {
+      background-color: #ecf0f1;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .Semeando h2 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #000;
+    }
+
+    .Semeando ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .Semeando li {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .patrocinadores {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header class="cabecalho">
+    <img src="/Img/Logo-Agrinho-Solos.png" alt="Logo">
+    <h2>Do Campo a Cidade Colhendo Oportunidades</h2>
+  </header>
+
+  <div class="produtos-container">
+    <section class="produto">
+      <img src="Img/LampadaLed.jpg" width="300" alt="Produto 1">
+      <div class="caixa-produto">
+        <h4>Produto Sustentável Lampada de Led</h4>
+        <p>Para quem busca economizar na conta de luz (o que sim, também influencia na economia de água), apostar nas lâmpadas de LED é uma ótima opção;.
+          Ao contrário das lâmpadas tradicionais, os modelos de LED podem proporcionar até 80% de economia na sua conta de luz. E mais! Além de gastar menos, as lâmpadas de LED também possuem uma vida útil superior às incandescentes e fluorescentes.
+          Uma lâmpada de LED de 10W, por exemplo, ilumina um ambiente com a mesma intensidade que uma lâmpada fluorescente de 15W ou uma lâmpada incandescente de 60W.
+        </p>
+        <p><strong>Como ajudar:</strong> Reduz o consumo de água e energia.</p>
+        <a href="https://grupomb.ind.br/iluminacao-de-led/" class="botao-saiba-mais">Saiba Mais</a>
+      </div>
+    </section>
+
+    <section class="produto">
+      <img src="Img/reciclagem.webp" alt="Produto 2">
+      <div class="caixa-produto">
+        <h4>Agricultura e Sustentabilidade</h4>
+        <p>A água desempenha um papel crucial na agricultura, sendo indispensável para irrigar plantações, manter o gado e viabilizar diversas atividades agrícolas. Sem água em quantidade e qualidade adequadas, a produtividade das lavouras é gravemente prejudicada, afetando a segurança alimentar e a economia. A agricultura é uma das principais consumidoras de água doce globalmente, destacando a necessidade urgente de uma gestão eficiente desse recurso. A implementação de práticas sustentáveis, como irrigação por gotejamento, coleta de água da chuva e manejo integrado de pragas, torna-se essencial para assegurar a disponibilidade de água no futuro e reduzir os impactos ambientais adversos.</p>
+        <p><strong>Como ajudar:</strong> Adotar práticas sustentáveis na agricultura ajuda a garantir a disponibilidade de água no futuro e a minimizar os impactos ambientais negativos.</p>
+        <a href="https://www.aguasustentavel.org.br/conteudo/blog/245-agricultura-sustentabilidade-conheca-boas-praticas-rurais" class="botao-saiba-mais">Saiba Mais</a>
+      </div>
+    </section>
+
+    <section class="produto">
+      <img src="Img/tecnologia rural.jpg" alt="Produto 3">
+      <div class="caixa-produto">
+        <h4>Tecnologias Utilizadas nos Campos</h4>
+        <p>A transformação digital tem sido responsável por mudanças na sociedade mundial, marcadas pela utilização de diferentes vias tecnológicas para melhorar o desempenho e otimizar resultados de empresas, instituições e pessoas. A exemplo de outras áreas, como saúde, educação, indústria e meios de comunicação, a tecnologia no campo também ganha força na agricultura moderna; A tecnologia no campo ocorre quando produtores rurais utilizam softwares, computadores ou sistemas para fazer o monitoramento da lavoura, automatizar os processos, conectar máquinas agrícolas, além de reduzir custos e aumentar a produtividade da cultura por meio de diferentes soluções tecnológicas;
+Exemplos das tecnologias usadas no campo: Sensores, drones, aplicativos, softwares e sistemas de gestão, imagens de satélites, tratores, pulverizadores e colheitadeiras automáticos já são realidade no meio rural. </p>
+        <a href="https://blog.climatefieldview.com.br/tecnologia-no-campo/" class="botao-saiba-mais">Saiba Mais</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
